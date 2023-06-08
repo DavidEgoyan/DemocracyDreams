@@ -11,4 +11,4 @@ Our platform aims to foster a vibrant community where backers can discover excit
 
 Additionally, we understand the importance of social impact, and we encourage campaigns that contribute to positive change, social causes, and community development. We strive to create an inclusive and empowering environment that supports diverse projects and amplifies underrepresented voices.
 
-Join our crowdfunding platform today and embark on your journey towards success. Let us be the catalyst for turning your dreams into reality and making a lasting impact through the collective power of individuals coming together to support extraordinary ideas and causes.
+Join DemocracyDreams today and embark on your journey towards success. Let us be the catalyst for turning your dreams into reality and making a lasting impact through the collective power of individuals coming together to support extraordinary ideas and causes.
