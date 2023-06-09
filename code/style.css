@@ -1,3 +1,7 @@
+/* This is a CSS code that defines the styling for a webpage. It sets various properties such as font
+family, colors, padding, and margins for different HTML elements such as body, ul, a, button, etc.
+It also defines custom CSS variables using the :root selector. The code also defines the styling for
+a navigation menu, dropdowns, search bar, and other elements of the webpage. */
 * {
     margin: 0;
     padding: 0;
