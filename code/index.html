@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DemocracyDreams</title>
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./responsive.css" />
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
@@ -18,7 +19,98 @@
     />
   </head>
   <body>
-    <header></header>
+    <header>
+      <div class="container">
+        <div class="nav-start">
+          <a class="logo" href="/"> DemocracyDreams </a>
+          <nav class="menu">
+            <ul class="menu-bar">
+              <li>
+                <button
+                  class="nav-link dropdown-btn"
+                  data-dropdown="dropdown1"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  aria-label="browse"
+                >
+                  Discover
+                  <i class="bx bx-chevron-down" aria-hidden="true"></i>
+                </button>
+                <div id="dropdown1" class="dropdown">
+                  <ul role="menu">
+                    <li class="dropdown-title">
+                      <span class="dropdown-link-title">TECH & INNOVATION</span>
+                    </li>
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="#adobe-xd"> Audio </a>
+                    </li>
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="#after-effect">
+                        Education
+                      </a>
+                    </li>
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="#sketch"> Productivity </a>
+                    </li>
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="#indesign">
+                        Trasnportation
+                      </a>
+                    </li>
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="#figma">
+                        Fashin & Beverages
+                      </a>
+                    </li>
+                  </ul>
+
+                  <ul role="menu">
+                    <li class="dropdown-title">
+                      <span class="dropdown-link-title">CREATIVE WORKS</span>
+                    </li>
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="#adobe-xd"> Art </a>
+                    </li>
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="#after-effect"> Comics </a>
+                    </li>
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="#sketch"> Fild </a>
+                    </li>
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="#indesign"> Music </a>
+                    </li>
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="#figma"> Photography </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li><a class="nav-link" href="#">Start a project</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="nav-end">
+          <div class="right-container">
+            <form class="search" role="search">
+              <input type="search" name="search" placeholder="Search" />
+              <i class="bx bx-search" aria-hidden="true"></i>
+            </form>
+            <button class="btn btn-primary">Log In</button>
+          </div>
+
+          <button
+            id="hamburger"
+            aria-label="hamburger"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            <i class="bx bx-menu" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+    </header>
     <main></main>
     <footer></footer>
     <script src="./main.js"></script>
