@@ -207,3 +207,15 @@ button {
     margin-left: 1rem;
     font-size: 1.9rem;
 }
+
+.slogan {
+    text-align: center;
+    background-image: url(../img/Banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.slogan h1 {
+    padding: 18rem;
+}
