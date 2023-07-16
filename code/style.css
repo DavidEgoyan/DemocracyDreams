@@ -82,7 +82,10 @@ button {
 .menu-bar li:first-child .dropdown {
     flex-direction: initial;
 }
+.menu-bar ul {
+    min-width: 220px;
 
+}
 .menu-bar li:first-child ul:nth-child(1) {
     border-right: var(--border);
 }
@@ -193,7 +196,7 @@ button {
     border: var(--border);
   }
   
-  .search .bx-search {
+.search .bx-search {
     position: absolute;
     left: 10px;
     top: 50%;
