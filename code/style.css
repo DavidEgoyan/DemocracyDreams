@@ -191,15 +191,16 @@ button {
     font-size: 16px;
     width: 100%;
     border: var(--border);
-}
-
-.search .search-icon {
+  }
+  
+  .search .bx-search {
     position: absolute;
     left: 10px;
     top: 50%;
+    font-size: 1.3rem;
     transform: translateY(-50%);
     opacity: 0.6;
-}
+  }
 
 #hamburger {
     display: none;
