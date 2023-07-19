@@ -82,10 +82,12 @@ button {
 .menu-bar li:first-child .dropdown {
     flex-direction: initial;
 }
+
 .menu-bar ul {
     min-width: 220px;
 
 }
+
 .menu-bar li:first-child ul:nth-child(1) {
     border-right: var(--border);
 }
@@ -194,8 +196,8 @@ button {
     font-size: 16px;
     width: 100%;
     border: var(--border);
-  }
-  
+}
+
 .search .bx-search {
     position: absolute;
     left: 10px;
@@ -203,7 +205,7 @@ button {
     font-size: 1.3rem;
     transform: translateY(-50%);
     opacity: 0.6;
-  }
+}
 
 #hamburger {
     display: none;
@@ -222,4 +224,25 @@ button {
 
 .slogan h1 {
     padding: 18rem;
+}
+
+footer {
+    margin-top: auto;
+}
+
+footer .border {
+    border-top: 0.1rem solid #DCDEDD;
+}
+
+footer .elements {
+    width: 70%;
+    margin: auto;
+    padding-top: 2.4rem; 
+}
+
+footer .elements a {
+
+    font-size: 13px;
+    padding: 12px;
+    color: #282828;
 }
