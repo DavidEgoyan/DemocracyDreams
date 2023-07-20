@@ -264,7 +264,6 @@ footer .middle .logo {
 
 /* CSS styling for the "footer middle select" class */
 footer .middle select {
-    -moz-appearance: none;
     border: 2px solid #e3e3e3;
     background-color: #fff;
     padding: 10px 20px;
