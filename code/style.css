@@ -234,15 +234,86 @@ footer .border {
     border-top: 0.1rem solid #DCDEDD;
 }
 
-footer .elements {
+/* BOOTOM FOOTER */
+footer .bottom {
     width: 70%;
     margin: auto;
-    padding-top: 2.4rem; 
+    padding-top: 2.4rem;
 }
 
-footer .elements a {
-
+footer .bottom a {
     font-size: 13px;
     padding: 12px;
     color: #282828;
+}
+
+/* MIDLE FOOTER */
+footer .middle {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+
+}
+
+footer .middle .logo {
+    width: 25px;
+    margin-bottom: -5px;
+}
+
+/* CSS styling for the "footer middle select" class */
+footer .middle select {
+    -moz-appearance: none;
+    border: 2px solid #e3e3e3;
+    background-color: #fff;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    /* Adjust the max-width as needed */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    position: relative;
+    /* To position the arrow icon */
+}
+
+/* Style the arrow icon */
+footer .middle select::after {
+    content: "\25BE";
+    /* Downward-pointing arrow (▾) */
+    font-size: 12px;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+/* Style the select when opened */
+footer .middle select:focus {
+    outline: none;
+    border-color: #007bff;
+    /* Change to the desired color */
+    box-shadow: 0 2px 6px rgba(0, 123, 255, 0.3);
+}
+
+/* Style the options dropdown */
+footer .middle select option {
+    background-color: #fff;
+    color: #333;
+}
+
+/* Style the selected option */
+footer .middle select option:checked {
+    background-color: #007bff;
+    /* Change to the desired color */
+    color: #fff;
+}
+
+/* Style the options on hover */
+footer .middle select option:hover {
+    background-color: #007bff;
+    /* Change to the desired hover color */
+    color: #fff;
 }
