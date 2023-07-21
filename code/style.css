@@ -14,7 +14,7 @@ a navigation menu, dropdowns, search bar, and other elements of the webpage. */
     --medium-grey: #636363;
     --light-grey: #eeeeee;
     --ash: #f4f4f4;
-    --primary-color: #2b72fb;
+    --primary-color: #007bff;
     --white: white;
     --border: 1px solid var(--light-grey);
     --shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
@@ -197,7 +197,12 @@ button {
     width: 100%;
     border: var(--border);
 }
-
+.search input:focus{
+    outline: none;
+    border-color: #007bff;
+    /* Change to the desired color */
+    box-shadow: 0 2px 6px rgba(0, 123, 255, 0.3);
+}
 .search .bx-search {
     position: absolute;
     left: 10px;
@@ -245,6 +250,10 @@ footer .bottom a {
     font-size: 13px;
     padding: 12px;
     color: #282828;
+}
+footer .bottom a:hover{
+    color: var(--primary-color);
+    text-decoration:underline #007bff;
 }
 footer .bottom .firstElement{
     padding-left: 0;
