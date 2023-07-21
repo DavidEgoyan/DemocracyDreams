@@ -199,7 +199,7 @@ button {
 }
 .search input:focus{
     outline: none;
-    border-color: #007bff;
+    border-color: var(--primary-color);
     /* Change to the desired color */
     box-shadow: 0 2px 6px rgba(0, 123, 255, 0.3);
 }
@@ -259,7 +259,7 @@ footer .bottom .firstElement{
     padding-left: 0;
 }
 /* MIDLE FOOTER */
-footer .middle {
+footer .middle-end {
     width: 65%;
     margin: auto;
     display: flex;
@@ -268,30 +268,25 @@ footer .middle {
 
 }
 
-footer .middle .logo {
+footer .middle-end .logo {
     width: 25px;
     margin-bottom: -5px;
 }
 
-/* CSS styling for the "footer middle select" class */
-footer .middle select {
+footer .middle-end select {
     border: 2px solid #e3e3e3;
     background-color: #fff;
     padding: 10px 20px;
     font-size: 14px;
     font-family: Arial, sans-serif;
     color: #333;
-    /* Adjust the max-width as needed */
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     position: relative;
-    /* To position the arrow icon */
 }
 
-/* Style the arrow icon */
-footer .middle select::after {
+footer .middle-end select::after {
     content: "\25BE";
-    /* Downward-pointing arrow (▾) */
     font-size: 12px;
     position: absolute;
     top: 50%;
@@ -300,34 +295,27 @@ footer .middle select::after {
     pointer-events: none;
 }
 
-/* Style the select when opened */
-footer .middle select:focus {
+footer .middle-end select:focus {
     outline: none;
     border-color: #007bff;
-    /* Change to the desired color */
     box-shadow: 0 2px 6px rgba(0, 123, 255, 0.3);
 }
 
-/* Style the options dropdown */
-footer .middle select option {
+footer .middle-end select option {
     background-color: #fff;
     color: #333;
 }
 
-/* Style the selected option */
-footer .middle select option:checked {
+footer .middle-end select option:checked {
     background-color: #007bff;
-    /* Change to the desired color */
     color: #fff;
 }
 
-/* Style the options on hover */
-footer .middle select option:hover {
+footer .middle-end select option:hover {
     background-color: #007bff;
-    /* Change to the desired hover color */
     color: #fff;
 }
 
-footer .middle .left {
+footer .middle-end .left {
     margin-top: 0.5rem;
 }
