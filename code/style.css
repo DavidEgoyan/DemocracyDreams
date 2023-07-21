@@ -26,6 +26,7 @@ body {
     background-color: var(--white);
     color: var(--dark-grey);
     letter-spacing: -0.4px;
+    color: #282828;
 }
 
 ul {
@@ -197,12 +198,14 @@ button {
     width: 100%;
     border: var(--border);
 }
-.search input:focus{
+
+.search input:focus {
     outline: none;
     border-color: var(--primary-color);
     /* Change to the desired color */
     box-shadow: 0 2px 6px rgba(0, 123, 255, 0.3);
 }
+
 .search .bx-search {
     position: absolute;
     left: 10px;
@@ -236,7 +239,7 @@ footer {
 }
 
 footer .border {
-    border-top: 0.1rem solid #DCDEDD;
+    border-top: 0.15rem solid #DCDEDD;
 }
 
 /* BOOTOM FOOTER */
@@ -251,21 +254,23 @@ footer .bottom a {
     padding: 12px;
     color: #282828;
 }
-footer .bottom a:hover{
+
+footer .bottom a:hover {
     color: var(--primary-color);
-    text-decoration:underline #007bff;
+    text-decoration: underline #007bff;
 }
-footer .bottom .firstElement{
+
+.firstElement {
     padding-left: 0;
 }
-/* MIDLE FOOTER */
+
+/* MIDDLE-END FOOTER */
 footer .middle-end {
     width: 65%;
     margin: auto;
     display: flex;
     justify-content: space-between;
     padding-bottom: 2rem;
-
 }
 
 footer .middle-end .logo {
@@ -318,4 +323,51 @@ footer .middle-end select option:hover {
 
 footer .middle-end .left {
     margin-top: 0.5rem;
+}
+
+/* MIDDLE-START FOOTER */
+footer .middle-start {
+    width: 60%;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    padding-bottom: 3.5rem;
+    padding-top: 3rem;
+
+
+}
+
+footer .middle-start span {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+footer .middle-start a {
+    font-size: 14px;
+}
+
+footer .middle {
+    border-top: 0.15rem solid #DCDEDD;
+}
+
+/* TOP FOOTER */
+footer .top {
+    width: 65%;
+    margin: auto;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+footer .top a {
+    font-size: 14px;
+    padding: 20px;
+}
+
+footer .top a:hover {
+    color: var(--primary-color);
+    text-decoration: underline #007bff;
+}
+
+.borderTop {
+    border-top: 0.15rem solid #9B9E9E;
 }
