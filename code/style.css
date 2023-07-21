@@ -236,7 +236,7 @@ footer .border {
 
 /* BOOTOM FOOTER */
 footer .bottom {
-    width: 70%;
+    width: 65%;
     margin: auto;
     padding-top: 2.4rem;
 }
@@ -246,10 +246,12 @@ footer .bottom a {
     padding: 12px;
     color: #282828;
 }
-
+footer .bottom .firstElement{
+    padding-left: 0;
+}
 /* MIDLE FOOTER */
 footer .middle {
-    width: 70%;
+    width: 65%;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -315,4 +317,8 @@ footer .middle select option:hover {
     background-color: #007bff;
     /* Change to the desired hover color */
     color: #fff;
+}
+
+footer .middle .left {
+    margin-top: 0.5rem;
 }
